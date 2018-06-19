@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comjackfendley.httpsgithub.billmurray.FurtherReading">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/further_title"
+                android:text="Further Reading"
+                android:textStyle="bold"
+                android:textSize="90px"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/further_text"
+                android:text="Cinderella story: My life in golf \nCommon sense and whiskey \nThe Tao of bill Murray \nThe big bad book of bill Murray"
+                android:padding="16dp"
+                android:textSize="70px"
+                android:layout_below="@id/further_title"/>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>

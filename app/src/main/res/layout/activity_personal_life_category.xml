@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comjackfendley.httpsgithub.billmurray.PersonalLifeCategory">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/personal_title_tv"
+                android:text="The Man, the Myth, the Murray"
+                android:textStyle="bold"
+                android:textSize="90px"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/personal_tv"
+                android:text="Bill Murray is one of the most well-known actors in Hollywood and is famous all over the world and has been for many years. Bill Murray first grew into popularity on Saturday night live, which is the reason he earned his first Emmy award. Bill has also starred in many well-known films such as “Caddyshack”, “Stripes”, “Ghostbusters”, “Groundhog day” and many others. Murray also starred in “Lost in translation” alongside Scarlett Johansson, which earned Bill a Golden Globe and a BAFTA Award for Best Actor, as well as an Academy Award nomination for Best Actor. But what does the beloved actor do in his spare time? Off screen Bill is much like he is on screen, weird, silly and fun but he’s also a genuinely nice guy, for example in 1987, Murray made a large donation to help in the construction and development of the Nathalie Salmon House. This home has been able to provide affordable housing for low-income seniors. The founders of Housing Opportunities and Maintenance for the Elderly (HOME), said that Murray performed “Miracles” for them. There are also various websites which tell hilarious stories about things Murray has done with fans. Recently Bill Murray has teamed up with classical musician Jan Vogler, together they have gone on tour around America, performing classical music, with narration from Bill himself."
+                android:padding="16dp"
+                android:textSize="70px"
+                android:layout_below="@id/personal_title_tv"/>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>
